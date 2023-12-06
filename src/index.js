@@ -26,7 +26,7 @@ const calculatePiValue = (size) => {
 }
 
 fastify.get(
-    '/api/v1/get-pi',
+    '/api/v1/pi',
     {
         schema: {
             querystring: {
